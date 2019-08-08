@@ -1,0 +1,2 @@
+ctr + alt + ^  
+select multiple 
