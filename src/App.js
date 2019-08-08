@@ -20,7 +20,7 @@ function App(){
             <Lost name="name1">
                 <p><b>this is cool</b> </p>
             </Lost> 
-            <Lost name="name2"/>    
+            <Lost name="name22"/>    
             <Lost name="name3"/>
             <Cool name="name1"/>
             <Render/>

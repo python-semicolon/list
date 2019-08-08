@@ -26,7 +26,7 @@ class Api extends Component {
     const { postses, errorMsg } = this.state
     return (    
       <div>
-        <h4>list</h4>
+        <h4>lists</h4>
         {postses.length 
 					? postses.map(post => <div className="frist" key={post.id}>{post.userId}:{post.title}</div>)
           : null} 
