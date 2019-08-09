@@ -7,9 +7,11 @@ import Form from './Form'
 import Api from './Api'
 import Post from './Post'
 import PortalDemo from './Portal'
+import Memo from './memo'   
 import "./index.css"
 
-// import Listeners  from './listrender'
+
+// import Listeners  from './listrender'    
 // import ParentComponent from './Parent';
 // import {BrowserRouter as Router,Switch,Route} from 'react-router-dom'
 
@@ -20,7 +22,7 @@ function App(){
             <Lost name="name1">
                 <p><b>this is cool</b> </p>
             </Lost> 
-            <Lost name="name22"/>    
+            <Lost name="name2"/>    
             <Lost name="name3"/>
             <Cool name="name1"/>
             <Render/>
@@ -32,6 +34,7 @@ function App(){
             <br></br>
             <Post/>
             <PortalDemo/>
+            <Memo/>
             {/* <Listeners/> */}
             {/* <ParentComponent/> */}
      </div>

@@ -35,7 +35,7 @@ class Post extends Component {
             <div>
             <form onSubmit={this.submithandler}>
             <div>
-            <input type="text" name="userId" value={userId} onChange={this.changehandler} />
+            <input type="text" name="userId" value={userId}  onChange={this.changehandler} />
             </div>
             <div>
             <input type="text" name="title" value={title} onChange={this.changehandler}/>
