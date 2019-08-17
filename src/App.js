@@ -7,7 +7,8 @@ import Form from './Form'
 import Api from './Api'
 import Post from './Post'
 import PortalDemo from './Portal'
-import Memo from './memo'   
+import Memo from './memo' 
+import Refs from './Refs'  
 import "./index.css"
 
 
@@ -35,6 +36,7 @@ function App(){
             <Post/>
             <PortalDemo/>
             <Memo/>
+            <Refs/>
             {/* <Listeners/> */}
             {/* <ParentComponent/> */}
      </div>
